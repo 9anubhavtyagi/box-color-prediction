@@ -1,0 +1,54 @@
+<html>
+<head>
+    
+    <title>COLOR PICKER</title>
+    <meta name="viewport" content="device-width" initial-scale="1">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/220px-SubtractiveColorMixing.png" type="image/png" sizes="16x16"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+    
+<body>
+    
+    <h1>
+        Color Picking Game
+    </h1>
+
+<div id="columns">
+    
+<div id="block1">
+    
+    <button id="easy" onclick="Easy()">Easy</button>
+    <button id="med" onclick="Medium()">Medium</button>
+    <button id ="hard" onclick="Hard()">Hard</button>
+        <br><br>
+    <button id="reset" class="onoff" onclick="Reset()">New Color</button>
+    <button id="start" class="onoff" onclick="Start(),Timer()">Start</button>
+        <br><br>
+    <span id="timer" class="result">Timer</span>
+    <span id="score" class="result">Score</span>
+
+</div>
+    
+<div id="block2">
+    <div id="box">RGB</div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+</div>
+
+</div>
+    
+<script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>
